@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/podch.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap" rel="stylesheet">  
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">  
+    <script src="http://use.fontawesome.com/97a921e90a.js"></script>
+    <title>podcast channel</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="iconos/logo.svg" alt="logo" class="logo">
+        <input class="menu-btn" type="checkbox" id="menu-btn">
+        <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+        <ul class="menu"> 
+            <li><a href=".episodios-spotify">episodios</a></li>
+            <li><a href=".phone-where">nosotros</a></li>
+            <li><a href=".invitados">entrevistas</a></li>
+            <li><a href=".iconos">tópicos</a></li>
+        </ul> 
+    </header> 
+
+    <main>
+        <section class="principal">
+            <h1>Hello <span class="world">world</span> pale blue dot<span id="dot">.</span></h1>
+            <p class="podcast-text">Un podcast que explora el mundo de la programación. Nuevos episodios, todos los jueves cada 15 días</p>
+            <p class="podcast2-text">El portal de podcasts que explora el mundo de la programación y la tecnología. Nuevos episodios, todos los jueves cada 15 días.</p>
+            <input type="button" class="button" value="conocé más">         
+        </section>
+
+        <section class="episodios-spotify">
+            <div class="shape-up">
+                <div class="tittlewhite">
+                    <h2>Episodios</h2>
+                </div>
+                <div class="episodios-sp">
+                    <div class="up">
+                        <iframe src="https://open.spotify.com/embed-podcast/show/0S1h5K7jm2YvOcM7y1ZMXY" allow="encrypted-media"></iframe>
+                        <iframe src="https://open.spotify.com/embed-podcast/show/4kYCRYJ3yK5DQbP5tbfZby" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="down">
+                        <iframe src="https://open.spotify.com/embed-podcast/show/5JxcIaIkN8zx3Zy7yD9snv" allow="encrypted-media"></iframe>
+                        <iframe src="https://open.spotify.com/embed-podcast/show/2Iibd5A6R7mxkCm4NwNmUn" allow="encrypted-media"></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="phone-where">
+            <div class="phoneimg">
+                <img src="imagenes/phone.png" alt="phone" class="phone">
+            <div class="tittleblack">
+                <h2>De dónde venimos</h2>
+                <p class="text-phone">Our posturings, our imagined self-importance, the delusion that we have some privileged position in the Universe, are challenged by this point off pale light. <br> <br> Our planet is a lonely speck in the great enveloping cosmic dark. In our obscurity, in all this vastness, there is no hin that help will come from else where to save us from ourselves.</p>
+            </div>
+            </div>  
+        </section>
+        
+        <section class="invitados">
+            <div class="tittleblack">
+                <h2 class="tit">Invitadas/os estelares</h2>
+            </div>
+            <div class="imagenes">
+                <img src="imagenes/grace-hopper.png" alt="" class="images">
+                <img src="imagenes/Katie-Bouman.png" alt="" class="images">
+                <img src="imagenes/Margaret_Hamilton.png" alt="" class="images">
+                <img src="imagenes/computerinthe1950.png" alt="" class="images">
+                <img src="imagenes/computer.png" alt="" class="images">
+                <img src="imagenes/susan-kare.png" alt="" class="images">
+            </div>
+        </section>
+
+        <section class="iconos">
+            <div class="tittleblack">
+                <h2 class="tit">Algunos de nuestros temas</h2>
+            </div>
+            <div class="icon">
+                <div class="icons">
+                    <img src="iconos/icon1.svg" alt="icono1" class="icono">
+                    <p class="text-icon">Trabajo remoto</p>
+                </div>
+                <div class="icons">
+                    <img src="iconos/icon2.svg" alt="icono1" class="icono">
+                    <p class="text-icon">Repensando la programación</p>
+                </div>
+                <div class="icons">
+                    <img src="iconos/icon3.svg" alt="icono1" class="icono">
+                    <p class="text-icon">Bases del código</p>
+                </div>
+                <div class="icons">
+                    <img src="iconos/icon4.svg" alt="icono1" class="icono">
+                    <p class="text-icon">Seguridad Informática</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="final">
+            <div class="shape"></div>
+            <div class="shape-down">
+                <div class="tittlewhite">
+                    <h2 class="tittle-fin">¿Querés las últimas novedades?</h2>
+                    <input type="button" class="button2" value="escuchá los episodios" onclick="location.href='episodios-spotify'">  
+                </div>
+                
+           </div>
+        </section>
+    </main>
+
+<footer class="footer">
+    © 2019- Hello blue pale dot
+    <ul class="redes">
+        <li> <a href="https//www.spotify.com/ar/" target="_blank"><i class="fa fa-spotify" style="font-size:18px"></i></a> </li>
+        <li> <a href="https//www.instagram.com/" target="_blank"><i class="fa fa-instagram" style="font-size:18px"></i></a> </li>
+        <li> <a href="https//twitter.com/" target="_blank"><i class="fa fa-twitter" style="font-size:18px"></i></a> </li>
+        <li> <a href="https//www.facebook.com/enespanol/" target="_blank"><i class="fa fa-facebook" style="font-size:18px"></i></a> </li>
+        <li> <a href="https//telegram.org/" target="_blank"><i class="fa fa-telegram" style="font-size:18px"></i></a> </li>
+    </ul>
+</footer>
+</body>
+</html>
