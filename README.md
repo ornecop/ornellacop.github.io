@@ -7,11 +7,11 @@ During the year 2020, I had the pleasure of undertaking this exciting project as
 
 ## Features
 
-- **Used Technologies:** The project is based on the core web technologies: HTML and CSS. No external frameworks or libraries were employed for its development, highlighting my ability to work directly with the essential elements of the web.
+-   ✅ **Used Technologies:** The project is based on the core web technologies: HTML and CSS. No external frameworks or libraries were employed for its development, highlighting my ability to work directly with the essential elements of the web.
 
-- **Responsive Design:** One of the project's highlights is its responsive design. Each page and component of the project fluidly adapts to different screen sizes, providing a consistent and pleasant user experience from mobile devices to desktop computers.
+-   ✅ **Responsive Design:** One of the project's highlights is its responsive design. Each page and component of the project fluidly adapts to different screen sizes, providing a consistent and pleasant user experience from mobile devices to desktop computers.
 
-- **Recognition:** The project received recognition for its clean syntax and attractive design. This recognition not only reflects my technical skills but also my dedication and passion for web development.
+-   ✅ **Recognition:** The project received recognition for its clean syntax and attractive design. This recognition not only reflects my technical skills but also my dedication and passion for web development.
 
 ## Usage Instructions
 
